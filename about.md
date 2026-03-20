@@ -4,47 +4,40 @@ title: About
 permalink: /about/
 ---
 
-# 👋 About TecDev
+# 👋 About Me
 
-**TecDev** is my personal space to document and share what I learn about technology.
+I'm **DevGS8** — a developer passionate about technology, clean code, and continuous learning.
+
+![Profile](https://github.com/devgs8.png?size=100)
 
 ---
 
 ## 🎯 Mission
 
-To create clear, practical technical content that helps developers grow — including myself.
+To document my learning journey and share knowledge with the developer community.
 
 ---
 
-## 🛠️ Technologies I Work With
+## 🛠️ Technologies & Focus
 
-- **Languages:** Java (learning)
-- **Containers:** Docker, Kubernetes
-- **Version Control:** Git & GitHub
-- **Cloud:** Azure
-- **Linux:** my daily driver for development
-- **Windows:** for compatibility and testing
-- **DNS:** understanding how the internet resolves names
-- **Mentoring:** teaching and supporting fellow developers
-- **Algorithms:** strengthening logic and problem-solving skills
-
----
-
-## 📝 Why This Blog?
-
-I believe in **learning in public**. Writing about what I learn helps me:
-
-- Solidify concepts
-- Build a knowledge base
-- Connect with other developers
+| Area | Tools |
+|------|-------|
+| **Languages** | Java (learning), Python, JavaScript |
+| **Containers** | Docker, Kubernetes |
+| **Version Control** | Git & GitHub |
+| **Cloud** | Azure |
+| **OS** | Linux (daily driver), Windows |
+| **Networking** | DNS fundamentals |
+| **Mentoring** | Teaching and supporting fellow developers |
+| **Algorithms** | Strengthening logic and problem-solving |
 
 ---
 
-## 📬 Let's Connect
+## 📬 Connect
 
 - **GitHub:** [github.com/devgs8](https://github.com/devgs8)
-- **Email:** *coming soon*
+- **Blog:** [devgs8.github.io](https://devgs8.github.io)
 
 ---
 
-*Thanks for visiting!*
+*Thanks for visiting! 🚀*
