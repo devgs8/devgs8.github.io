@@ -1,0 +1,27 @@
+# Site settings
+title: "TecDev"
+description: "Technical insights for modern developers • Coding • DevOps • English for Tech"
+url: "https://devgs8.github.io"
+baseurl: ""
+
+# Author
+author:
+  name: "DevGS8"
+  github: "devgs8"
+
+# Social links
+github_username: devgs8
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
