@@ -111,7 +111,7 @@ To document my learning journey and share knowledge with the developer community
 <div class="tech-grid">
   <div class="tech-card">
     <h3>💻 Languages</h3>
-    <p>Java (learning), Python, JavaScript</p>
+    <p>Java (learning)</p>
   </div>
   <div class="tech-card">
     <h3>🐳 Containers</h3>
