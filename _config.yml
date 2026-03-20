@@ -1,5 +1,5 @@
 title: "TecDev"
-description: "Technical insights for modern developers • Java • English for Tech"
+description: "Technical blog about coding, Java, and English for developers"
 url: "https://devgs8.github.io"
 baseurl: ""
 
@@ -9,14 +9,9 @@ author:
 
 github_username: devgs8
 
-# Favicon
-favicon: /assets/images/favicon.ico
-
-# Navigation menu
+# Navigation menu (apenas Home e About)
 header_pages:
   - index.md
-  - java.md
-  - english.md
   - about.md
 
 # Build settings
