@@ -48,11 +48,43 @@ permalink: /about/
     color: white;
     margin-bottom: 2rem;
   }
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  .tech-card {
+    background: #f8f9fa;
+    padding: 1.2rem;
+    border-radius: 12px;
+    border-left: 4px solid #0078D4;
+    transition: transform 0.3s ease;
+  }
+  .tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  .tech-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #0078D4;
+  }
+  .tech-card p {
+    margin: 0;
+    color: #555;
+  }
+  .tech-desc {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.85rem;
+    color: #777;
+  }
 </style>
 
 <div class="nav-buttons">
   <a href="/" class="btn btn-secondary">← Back to Home</a>
   <a href="/" class="btn btn-primary">🏠 Home</a>
+  <a href="/java" class="btn btn-secondary">☕ Java</a>
+  <a href="/english" class="btn btn-secondary">🇬🇧 English</a>
 </div>
 
 <div class="profile-card">
@@ -66,54 +98,48 @@ permalink: /about/
 
 ## 🛠️ Technologies & Focus
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+<div class="tech-grid">
   
-  <div style="background: #f8f9fa; padding: 1.2rem; border-radius: 12px; border-left: 4px solid #0078D4;">
-    <h3 style="margin: 0 0 0.5rem 0;">💻 Languages</h3>
-    <p style="margin: 0; color: #555;">Java (learning), Python, JavaScript</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: #777;">Building strong fundamentals in OOP, scripting, and web basics.</p>
+  <div class="tech-card">
+    <h3>☕ Java</h3>
+    <p>Learning Java fundamentals</p>
+    <p class="tech-desc">OOP, data structures, and building real-world applications.</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.2rem; border-radius: 12px; border-left: 4px solid #0078D4;">
-    <h3 style="margin: 0 0 0.5rem 0;">🐳 Containers</h3>
-    <p style="margin: 0; color: #555;">Docker, Kubernetes</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: #777;">Containerization and orchestration for scalable applications.</p>
+  <div class="tech-card">
+    <h3>🐳 Containers</h3>
+    <p>Docker, Kubernetes</p>
+    <p class="tech-desc">Containerization and orchestration for scalable applications.</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.2rem; border-radius: 12px; border-left: 4px solid #0078D4;">
-    <h3 style="margin: 0 0 0.5rem 0;">📦 Version Control</h3>
-    <p style="margin: 0; color: #555;"><a href="https://github.com/devgs8" target="_blank" style="color: #0078D4; text-decoration: none;">Git & GitHub</a> 🔗</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: #777;">Collaborative development, open source contributions, and CI/CD workflows.</p>
+  <div class="tech-card">
+    <h3>📦 Version Control</h3>
+    <p><a href="https://github.com/devgs8" target="_blank" style="color: #0078D4; text-decoration: none;">Git & GitHub</a> 🔗</p>
+    <p class="tech-desc">Collaborative development, open source contributions.</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.2rem; border-radius: 12px; border-left: 4px solid #0078D4;">
-    <h3 style="margin: 0 0 0.5rem 0;">☁️ Cloud</h3>
-    <p style="margin: 0; color: #555;"><a href="https://azure.microsoft.com" target="_blank" style="color: #0078D4; text-decoration: none;">Azure</a> 🔗</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: #777;">Cloud computing, virtual machines, and infrastructure as code.</p>
+  <div class="tech-card">
+    <h3>☁️ Cloud</h3>
+    <p><a href="https://azure.microsoft.com" target="_blank" style="color: #0078D4; text-decoration: none;">Azure</a> 🔗</p>
+    <p class="tech-desc">Cloud computing, virtual machines, infrastructure as code.</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.2rem; border-radius: 12px; border-left: 4px solid #0078D4;">
-    <h3 style="margin: 0 0 0.5rem 0;">🐧 Operating Systems</h3>
-    <p style="margin: 0; color: #555;">Linux (daily driver), Windows</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: #777;">Terminal mastery, shell scripting, and cross-platform development.</p>
+  <div class="tech-card">
+    <h3>🐧 Operating Systems</h3>
+    <p>Linux (daily driver), Windows</p>
+    <p class="tech-desc">Terminal mastery, shell scripting, cross-platform development.</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.2rem; border-radius: 12px; border-left: 4px solid #0078D4;">
-    <h3 style="margin: 0 0 0.5rem 0;">🌐 Networking</h3>
-    <p style="margin: 0; color: #555;">DNS fundamentals</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: #777;">How the internet resolves names — from A records to resolution flow.</p>
+  <div class="tech-card">
+    <h3>🌐 Networking</h3>
+    <p>DNS fundamentals</p>
+    <p class="tech-desc">How the internet resolves names — from A records to resolution flow.</p>
   </div>
   
-  <div style="background: #f8f9fa; padding: 1.2rem; border-radius: 12px; border-left: 4px solid #0078D4;">
-    <h3 style="margin: 0 0 0.5rem 0;">🎓 Mentoring</h3>
-    <p style="margin: 0; color: #555;">Teaching and supporting fellow developers</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: #777;">Sharing knowledge through code reviews, pair programming, and technical guidance.</p>
-  </div>
-  
-  <div style="background: #f8f9fa; padding: 1.2rem; border-radius: 12px; border-left: 4px solid #0078D4;">
-    <h3 style="margin: 0 0 0.5rem 0;">🧠 Algorithms</h3>
-    <p style="margin: 0; color: #555;">Strengthening logic and problem-solving skills</p>
-    <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem; color: #777;">Data structures, complexity analysis, and coding challenges.</p>
+  <div class="tech-card">
+    <h3>🎓 Mentoring</h3>
+    <p>Teaching and supporting fellow developers</p>
+    <p class="tech-desc">Sharing knowledge through code reviews and technical guidance.</p>
   </div>
   
 </div>
@@ -123,8 +149,8 @@ permalink: /about/
 ## 📬 Connect
 
 <div style="display: flex; gap: 1rem; justify-content: center; margin: 2rem 0;">
-  <a href="https://github.com/devgs8" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0078D4; color: white; text-decoration: none; border-radius: 8px; transition: all 0.3s ease;">🐙 GitHub</a>
-  <a href="https://devgs8.github.io" style="display: inline-block; padding: 0.75rem 1.5rem; background: #6c757d; color: white; text-decoration: none; border-radius: 8px; transition: all 0.3s ease;">📝 Blog</a>
+  <a href="https://github.com/devgs8" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0078D4; color: white; text-decoration: none; border-radius: 8px;">🐙 GitHub</a>
+  <a href="https://devgs8.github.io" style="display: inline-block; padding: 0.75rem 1.5rem; background: #6c757d; color: white; text-decoration: none; border-radius: 8px;">📝 Blog</a>
 </div>
 
 <div class="nav-buttons" style="margin-top: 2rem;">
