@@ -6,42 +6,22 @@ layout: default
   .nav-buttons {
     display: flex;
     gap: 1rem;
+    justify-content: flex-end;
     margin-bottom: 2rem;
   }
   .btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    font-weight: 500;
+    padding: 0.5rem 1rem;
     text-decoration: none;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-  }
-  .btn-primary {
-    background: #0078D4;
-    color: white;
-    border: 2px solid #0078D4;
-  }
-  .btn-primary:hover {
-    background: transparent;
     color: #0078D4;
-    transform: translateY(-2px);
+    font-weight: 500;
   }
-  .btn-secondary {
-    background: #6c757d;
-    color: white;
-    border: 2px solid #6c757d;
-  }
-  .btn-secondary:hover {
-    background: transparent;
-    color: #6c757d;
-    transform: translateY(-2px);
+  .btn:hover {
+    text-decoration: underline;
   }
   .post-header {
     margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
     padding-bottom: 1rem;
-    border-bottom: 2px solid #eee;
   }
   .post-title {
     font-size: 2rem;
@@ -50,6 +30,22 @@ layout: default
   .post-meta {
     color: #777;
     font-size: 0.9rem;
+  }
+  .post-category {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-right: 0.5rem;
+  }
+  .category-java {
+    background: #f89820;
+    color: white;
+  }
+  .category-english {
+    background: #38ef7d;
+    color: #1a2a3a;
   }
   .post-content {
     line-height: 1.8;
@@ -62,18 +58,28 @@ layout: default
   .post-footer {
     margin-top: 3rem;
     padding-top: 2rem;
-    border-top: 2px solid #eee;
+    border-top: 1px solid #eee;
+  }
+  @media (max-width: 768px) {
+    .post-title {
+      font-size: 1.5rem;
+    }
   }
 </style>
 
 <div class="nav-buttons">
-  <a href="/" class="btn btn-secondary">← Back to Home</a>
-  <a href="/" class="btn btn-primary">🏠 Home</a>
+  <a href="/" class="btn">← Home</a>
+  <a href="/about" class="btn">About</a>
 </div>
 
 <div class="post-header">
+  {% if page.categories contains "java" %}
+    <span class="post-category category-java">☕ Java</span>
+  {% elsif page.categories contains "english" %}
+    <span class="post-category category-english">🇬🇧 English</span>
+  {% endif %}
   <h1 class="post-title">{{ page.title }}</h1>
-  <p class="post-meta">📅 {{ page.date | date: "%B %d, %Y" }} • 📂 {{ page.categories | join: ", " }}</p>
+  <p class="post-meta">📅 {{ page.date | date: "%B %d, %Y" }}</p>
 </div>
 
 <div class="post-content">
@@ -81,8 +87,5 @@ layout: default
 </div>
 
 <div class="post-footer">
-  <div class="nav-buttons">
-    <a href="/" class="btn btn-secondary">← Back to Home</a>
-    <a href="/" class="btn btn-primary">🏠 Home</a>
-  </div>
+  <a href="/" class="btn">← Back to Home</a>
 </div>
