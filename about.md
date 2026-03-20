@@ -26,7 +26,7 @@ permalink: /about/
   }
   .tech-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1rem;
     margin: 2rem 0;
   }
@@ -47,9 +47,10 @@ permalink: /about/
   }
   .footer {
     text-align: center;
-    margin-top: 3rem;
-    padding-top: 2rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
     border-top: 1px solid #eee;
+    color: #777;
   }
 </style>
 
@@ -60,18 +61,12 @@ permalink: /about/
 
 <div class="profile">
   <h1>👋 About Me</h1>
-  <p style="font-size: 1.1rem; color: #555;">
-    🧑‍💻 <strong>DevGS8</strong> — Helping developers grow through <strong>clear code</strong> and <strong>open knowledge</strong>.
-  </p>
+  <p><strong>DevGS8</strong> — Helping developers grow through <strong>clear code</strong> and <strong>open knowledge</strong>.</p>
 </div>
-
----
 
 ## 🎯 Mission
 
 Documenting my learning journey and sharing knowledge with the developer community.
-
----
 
 ## 🛠️ Technologies & Focus
 
@@ -97,8 +92,6 @@ Documenting my learning journey and sharing knowledge with the developer communi
     <p>Technical communication and vocabulary</p>
   </div>
 </div>
-
----
 
 ## 📬 Connect
 
