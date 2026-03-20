@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div style="margin-bottom: 2rem;">
+  <a href="/" style="display: inline-block; padding: 0.5rem 1rem; background: #6c757d; color: white; text-decoration: none; border-radius: 5px;">← Back to Home</a>
+  <a href="/" style="display: inline-block; padding: 0.5rem 1rem; margin-left: 0.5rem; background: #0078D4; color: white; text-decoration: none; border-radius: 5px;">🏠 Home</a>
+</div>
+
+<h1>{{ page.title }}</h1>
+<p style="color: #777; font-size: 0.9rem;">📅 {{ page.date | date: "%B %d, %Y" }} • 📂 {{ page.categories | join: ", " }}</p>
+
+<hr>
+
+{{ content }}
+
+<hr>
+
+<div style="margin-top: 2rem;">
+  <a href="/" style="display: inline-block; padding: 0.5rem 1rem; background: #0078D4; color: white; text-decoration: none; border-radius: 5px;">← Back to Home</a>
+</div>
