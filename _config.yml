@@ -1,24 +1,29 @@
-# Site settings
 title: "TecDev"
 description: "Technical insights for modern developers • Coding • DevOps • English for Tech"
 url: "https://devgs8.github.io"
 baseurl: ""
 
-# Author
 author:
   name: "DevGS8"
   github: "devgs8"
+  twitter: # opcional
 
-# Social links
+social:
+  name: DevGS8
+  links:
+    - https://github.com/devgs8
+
 github_username: devgs8
 
-# Build settings
+# SEO
+logo: /assets/images/logo.png
+
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Exclude from processing
+# Exclude
 exclude:
   - .sass-cache/
   - .jekyll-cache/
