@@ -18,10 +18,15 @@ To create clear, practical technical content that helps developers grow — incl
 
 ## 🛠️ Technologies I Work With
 
-- **Languages:** Java, Python, JavaScript, HTML/CSS
+- **Languages:** Java (learning)
 - **Containers:** Docker, Kubernetes
 - **Version Control:** Git & GitHub
-- **Cloud:** AWS (learning)
+- **Cloud:** Azure
+- **Linux:** my daily driver for development
+- **Windows:** for compatibility and testing
+- **DNS:** understanding how the internet resolves names
+- **Mentoring:** teaching and supporting fellow developers
+- **Algorithms:** strengthening logic and problem-solving skills
 
 ---
 
