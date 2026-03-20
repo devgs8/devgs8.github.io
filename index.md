@@ -18,7 +18,6 @@ title: "TecDev — Technical Blog"
     text-decoration: none;
     border-radius: 8px;
     transition: all 0.3s ease;
-    cursor: pointer;
   }
   .btn-primary {
     background: #0078D4;
@@ -40,6 +39,26 @@ title: "TecDev — Technical Blog"
     color: #6c757d;
     transform: translateY(-2px);
   }
+  .btn-java {
+    background: #f89820;
+    color: white;
+    border: 2px solid #f89820;
+  }
+  .btn-java:hover {
+    background: transparent;
+    color: #f89820;
+    transform: translateY(-2px);
+  }
+  .btn-english {
+    background: #38ef7d;
+    color: #1a2a3a;
+    border: 2px solid #38ef7d;
+  }
+  .btn-english:hover {
+    background: transparent;
+    color: #38ef7d;
+    transform: translateY(-2px);
+  }
   .hero {
     text-align: center;
     padding: 3rem 2rem;
@@ -48,56 +67,84 @@ title: "TecDev — Technical Blog"
     color: white;
     margin-bottom: 2rem;
   }
+  .section-title {
+    font-size: 1.8rem;
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #0078D4;
+    display: inline-block;
+  }
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
   .post-card {
-    border-bottom: 1px solid #eee;
-    padding: 2rem 0;
-    transition: transform 0.3s ease;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border-left: 4px solid #0078D4;
   }
   .post-card:hover {
-    transform: translateX(5px);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+  .post-card.java {
+    border-left-color: #f89820;
+  }
+  .post-card.english {
+    border-left-color: #38ef7d;
   }
   .post-title {
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.5rem 0;
   }
   .post-title a {
     text-decoration: none;
-    color: #0078D4;
-    font-size: 1.5rem;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 600;
   }
   .post-title a:hover {
-    text-decoration: underline;
+    color: #0078D4;
   }
   .post-meta {
     color: #777;
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+  }
+  .post-excerpt {
+    color: #555;
     font-size: 0.9rem;
+    line-height: 1.5;
     margin-bottom: 1rem;
   }
-  .read-more {
+  .post-category {
     display: inline-block;
-    margin-top: 0.5rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-bottom: 0.75rem;
+  }
+  .category-java {
+    background: #f89820;
+    color: white;
+  }
+  .category-english {
+    background: #38ef7d;
+    color: #1a2a3a;
+  }
+  .read-more {
     color: #0078D4;
     text-decoration: none;
     font-weight: 500;
+    font-size: 0.9rem;
   }
   .read-more:hover {
     text-decoration: underline;
-  }
-  .categories-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin: 2rem 0;
-  }
-  .category-card {
-    background: #f8f9fa;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-  }
-  .category-card:hover {
-    transform: translateY(-3px);
-    background: #e9ecef;
   }
   .footer-note {
     text-align: center;
@@ -106,37 +153,55 @@ title: "TecDev — Technical Blog"
     background: #f8f9fa;
     border-radius: 12px;
   }
+  @media (max-width: 768px) {
+    .nav-buttons {
+      flex-wrap: wrap;
+    }
+    .posts-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
+
+<div class="nav-buttons">
+  <a href="/" class="btn btn-primary">🏠 Home</a>
+  <a href="/java" class="btn btn-java">☕ Java</a>
+  <a href="/english" class="btn btn-english">🇬🇧 English</a>
+  <a href="/about" class="btn btn-secondary">👤 About</a>
+</div>
 
 <div class="hero">
   <h1>🚀 TecDev</h1>
   <p style="font-size: 1.2rem; margin-top: 1rem;">
     🧑‍💻 <strong>DevGS8</strong> — Helping developers grow through <strong>clear code</strong>, <strong>practical DevOps</strong>, and <strong>open knowledge</strong>.
   </p>
-  <div class="nav-buttons">
-    <a href="/" class="btn btn-primary">🏠 Home</a>
-    <a href="/about" class="btn btn-secondary">👤 About</a>
-  </div>
 </div>
 
 ---
 
 ## 📖 Latest Articles
 
-<div class="posts-list">
-  {% for post in site.posts %}
-    <div class="post-card">
-      <h2 class="post-title">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h2>
-      <p class="post-meta">
-        📅 {{ post.date | date: "%B %d, %Y" }} • 📂 {{ post.categories | join: ", " }}
-      </p>
-      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      <a href="{{ post.url }}" class="read-more">Read more →</a>
-    </div>
+<div class="posts-grid">
+  {% for post in site.posts limit:4 %}
+    {% if post.categories contains "java" %}
+      <div class="post-card java">
+        <span class="post-category category-java">☕ Java</span>
+    {% elsif post.categories contains "english" %}
+      <div class="post-card english">
+        <span class="post-category category-english">🇬🇧 English</span>
+    {% else %}
+      <div class="post-card">
+        <span class="post-category" style="background:#6c757d; color:white;">📝 Post</span>
+    {% endif %}
+        <h3 class="post-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h3>
+        <p class="post-meta">📅 {{ post.date | date: "%B %d, %Y" }}</p>
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+        <a href="{{ post.url }}" class="read-more">Read more →</a>
+      </div>
   {% else %}
-    <p>No posts yet. Check back soon! 📝</p>
+    <p style="grid-column: 1/-1; text-align: center;">📝 No posts yet. Check back soon!</p>
   {% endfor %}
 </div>
 
@@ -144,11 +209,25 @@ title: "TecDev — Technical Blog"
 
 ## 🎯 What You'll Find Here
 
-<div class="categories-grid">
-  <div class="category-card">💻 Coding</div>
-  <div class="category-card">🐳 DevOps</div>
-  <div class="category-card">🇬🇧 English for Tech</div>
-  <div class="category-card">🛠️ Tools & Workflows</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
+  <a href="/java" style="text-decoration: none;">
+    <div style="background: #f89820; color: white; padding: 1.5rem; text-align: center; border-radius: 12px; transition: transform 0.3s;">
+      <h3 style="margin: 0;">☕ Java</h3>
+      <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem;">Fundamentals, OOP, and real-world applications</p>
+    </div>
+  </a>
+  <a href="/english" style="text-decoration: none;">
+    <div style="background: #38ef7d; color: #1a2a3a; padding: 1.5rem; text-align: center; border-radius: 12px; transition: transform 0.3s;">
+      <h3 style="margin: 0;">🇬🇧 English for Tech</h3>
+      <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem;">Vocabulary, documentation, and communication</p>
+    </div>
+  </a>
+  <a href="/about" style="text-decoration: none;">
+    <div style="background: #6c757d; color: white; padding: 1.5rem; text-align: center; border-radius: 12px; transition: transform 0.3s;">
+      <h3 style="margin: 0;">👤 About Me</h3>
+      <p style="margin: 0.5rem 0 0 0; font-size: 0.85rem;">My journey and technologies</p>
+    </div>
+  </a>
 </div>
 
 <div class="footer-note">
