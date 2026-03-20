@@ -6,24 +6,23 @@ baseurl: ""
 author:
   name: "DevGS8"
   github: "devgs8"
-  twitter: # opcional
-
-social:
-  name: DevGS8
-  links:
-    - https://github.com/devgs8
 
 github_username: devgs8
 
-# SEO
-logo: /assets/images/logo.png
+# Favicon
+favicon: /assets/images/favicon.ico
 
+# Navigation menu
+header_pages:
+  - index.md
+  - about.md
+
+# Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Exclude
 exclude:
   - .sass-cache/
   - .jekyll-cache/
