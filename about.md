@@ -8,151 +8,103 @@ permalink: /about/
   .nav-buttons {
     display: flex;
     gap: 1rem;
-    justify-content: center;
-    margin: 2rem 0;
-  }
-  .btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    font-weight: 500;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-  }
-  .btn-primary {
-    background: #0078D4;
-    color: white;
-    border: 2px solid #0078D4;
-  }
-  .btn-primary:hover {
-    background: transparent;
-    color: #0078D4;
-    transform: translateY(-2px);
-  }
-  .btn-secondary {
-    background: #6c757d;
-    color: white;
-    border: 2px solid #6c757d;
-  }
-  .btn-secondary:hover {
-    background: transparent;
-    color: #6c757d;
-    transform: translateY(-2px);
-  }
-  .profile-card {
-    text-align: center;
-    padding: 2rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 16px;
-    color: white;
+    justify-content: flex-end;
     margin-bottom: 2rem;
   }
-  .tech-grid {
+  .btn {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #0078D4;
+    font-weight: 500;
+  }
+  .btn:hover {
+    text-decoration: underline;
+  }
+  .profile {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .tech-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
     margin: 2rem 0;
   }
-  .tech-card {
+  .tech-item {
     background: #f8f9fa;
-    padding: 1.2rem;
-    border-radius: 12px;
-    border-left: 4px solid #0078D4;
-    transition: transform 0.3s ease;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 3px solid #0078D4;
   }
-  .tech-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  }
-  .tech-card h3 {
+  .tech-item h3 {
     margin: 0 0 0.5rem 0;
     color: #0078D4;
   }
-  .tech-card p {
+  .tech-item p {
     margin: 0;
     color: #555;
+    font-size: 0.9rem;
   }
-  .tech-desc {
-    margin: 0.5rem 0 0 0;
-    font-size: 0.85rem;
-    color: #777;
+  .footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
   }
 </style>
 
 <div class="nav-buttons">
-  <a href="/" class="btn btn-secondary">← Back to Home</a>
-  <a href="/" class="btn btn-primary">🏠 Home</a>
-  <a href="/java" class="btn btn-secondary">☕ Java</a>
-  <a href="/english" class="btn btn-secondary">🇬🇧 English</a>
+  <a href="/" class="btn">Home</a>
+  <a href="/about" class="btn">About</a>
 </div>
 
-<div class="profile-card">
+<div class="profile">
   <h1>👋 About Me</h1>
-  <p style="font-size: 1.2rem; margin-top: 1rem;">
-    🧑‍💻 <strong>DevGS8</strong> — Helping developers grow through <strong>clear code</strong>, <strong>practical DevOps</strong>, and <strong>open knowledge</strong>.
+  <p style="font-size: 1.1rem; color: #555;">
+    🧑‍💻 <strong>DevGS8</strong> — Helping developers grow through <strong>clear code</strong> and <strong>open knowledge</strong>.
   </p>
 </div>
 
 ---
 
+## 🎯 Mission
+
+Documenting my learning journey and sharing knowledge with the developer community.
+
+---
+
 ## 🛠️ Technologies & Focus
 
-<div class="tech-grid">
-  
-  <div class="tech-card">
+<div class="tech-list">
+  <div class="tech-item">
     <h3>☕ Java</h3>
-    <p>Learning Java fundamentals</p>
-    <p class="tech-desc">OOP, data structures, and building real-world applications.</p>
+    <p>Learning fundamentals, OOP, and real-world applications</p>
   </div>
-  
-  <div class="tech-card">
-    <h3>🐳 Containers</h3>
-    <p>Docker, Kubernetes</p>
-    <p class="tech-desc">Containerization and orchestration for scalable applications.</p>
+  <div class="tech-item">
+    <h3>🐳 Docker & Kubernetes</h3>
+    <p>Containerization and orchestration</p>
   </div>
-  
-  <div class="tech-card">
-    <h3>📦 Version Control</h3>
-    <p><a href="https://github.com/devgs8" target="_blank" style="color: #0078D4; text-decoration: none;">Git & GitHub</a> 🔗</p>
-    <p class="tech-desc">Collaborative development, open source contributions.</p>
+  <div class="tech-item">
+    <h3>📦 Git & GitHub</h3>
+    <p>Version control and open source</p>
   </div>
-  
-  <div class="tech-card">
-    <h3>☁️ Cloud</h3>
-    <p><a href="https://azure.microsoft.com" target="_blank" style="color: #0078D4; text-decoration: none;">Azure</a> 🔗</p>
-    <p class="tech-desc">Cloud computing, virtual machines, infrastructure as code.</p>
+  <div class="tech-item">
+    <h3>🐧 Linux</h3>
+    <p>Daily driver — terminal and shell scripting</p>
   </div>
-  
-  <div class="tech-card">
-    <h3>🐧 Operating Systems</h3>
-    <p>Linux (daily driver), Windows</p>
-    <p class="tech-desc">Terminal mastery, shell scripting, cross-platform development.</p>
+  <div class="tech-item">
+    <h3>🇬🇧 English for Tech</h3>
+    <p>Technical communication and vocabulary</p>
   </div>
-  
-  <div class="tech-card">
-    <h3>🌐 Networking</h3>
-    <p>DNS fundamentals</p>
-    <p class="tech-desc">How the internet resolves names — from A records to resolution flow.</p>
-  </div>
-  
-  <div class="tech-card">
-    <h3>🎓 Mentoring</h3>
-    <p>Teaching and supporting fellow developers</p>
-    <p class="tech-desc">Sharing knowledge through code reviews and technical guidance.</p>
-  </div>
-  
 </div>
 
 ---
 
 ## 📬 Connect
 
-<div style="display: flex; gap: 1rem; justify-content: center; margin: 2rem 0;">
-  <a href="https://github.com/devgs8" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #0078D4; color: white; text-decoration: none; border-radius: 8px;">🐙 GitHub</a>
-  <a href="https://devgs8.github.io" style="display: inline-block; padding: 0.75rem 1.5rem; background: #6c757d; color: white; text-decoration: none; border-radius: 8px;">📝 Blog</a>
-</div>
+- **GitHub:** [github.com/devgs8](https://github.com/devgs8)
+- **Blog:** [devgs8.github.io](https://devgs8.github.io)
 
-<div class="nav-buttons" style="margin-top: 2rem;">
-  <a href="/" class="btn btn-secondary">← Back to Home</a>
+<div class="footer">
+  <p>📬 Stay tuned — new posts every week!</p>
 </div>
