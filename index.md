@@ -7,7 +7,9 @@ title: "TecDev — Technical Blog"
 
 **Technical insights for modern developers**
 
-Welcome to my technical blog. Here I document my journey through code, infrastructure, and the tools that shape modern software development.
+![Banner](https://img.shields.io/badge/Code-Java-blue?style=flat&logo=java)
+![Banner](https://img.shields.io/badge/DevOps-Kubernetes-326CE5?style=flat&logo=kubernetes)
+![Banner](https://img.shields.io/badge/Cloud-Azure-0078D4?style=flat&logo=microsoftazure)
 
 ---
 
@@ -16,6 +18,8 @@ Welcome to my technical blog. Here I document my journey through code, infrastru
 {% for post in site.posts limit:5 %}
 ### [{{ post.title }}]({{ post.url }})
 *{{ post.date | date: "%B %d, %Y" }}* — {{ post.excerpt | strip_html | truncatewords: 20 }}
+{% else %}
+*No posts yet. Check back soon! 📝*
 {% endfor %}
 
 ---
@@ -24,17 +28,18 @@ Welcome to my technical blog. Here I document my journey through code, infrastru
 
 | Category | Description |
 |----------|-------------|
-| 💻 **Coding** | Tips, patterns, and best practices |
-| 🐳 **DevOps** | Kubernetes, Docker, cloud infrastructure |
-| 🇬🇧 **English for Tech** | Technical communication, vocabulary, and documentation |
-| 🛠️ **Tools** | Productivity hacks and dev environment setup |
+| 💻 **Coding** | Java, Python, algorithms, best practices |
+| 🐳 **DevOps** | Docker, Kubernetes, cloud infrastructure |
+| 🇬🇧 **English for Tech** | Technical communication, vocabulary |
+| 🛠️ **Tools** | Git, Linux, productivity hacks |
 
 ---
 
-## 📬 Stay Connected
+## 👋 About Me
 
-- **GitHub:** [github.com/devgs8](https://github.com/devgs8)
-- **Blog:** [devgs8.github.io](https://devgs8.github.io)
+I'm **DevGS8** — a developer passionate about clean code, DevOps, and learning in public.
+
+🔗 [More about me →](/about)
 
 ---
 
