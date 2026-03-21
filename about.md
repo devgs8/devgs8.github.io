@@ -45,6 +45,27 @@ permalink: /about/
     color: #555;
     font-size: 0.9rem;
   }
+  .contact-info {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  .contact-info h3 {
+    margin: 0 0 1rem 0;
+    color: #0078D4;
+  }
+  .contact-info p {
+    margin: 0.5rem 0;
+  }
+  .contact-info a {
+    color: #0078D4;
+    text-decoration: none;
+  }
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
   .footer {
     text-align: center;
     margin-top: 2rem;
@@ -95,8 +116,12 @@ Documenting my learning journey and sharing knowledge with the developer communi
 
 ## 📬 Connect
 
-- **GitHub:** [github.com/devgs8](https://github.com/devgs8)
-- **Blog:** [devgs8.github.io](https://devgs8.github.io)
+<div class="contact-info">
+  <h3>📧 Get in Touch</h3>
+  <p><strong>Email:</strong> <a href="mailto:geraldomarques1984@hotmail.com">geraldomarques1984@hotmail.com</a></p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/devgs8">github.com/devgs8</a></p>
+  <p><strong>Blog:</strong> <a href="https://devgs8.github.io">devgs8.github.io</a></p>
+</div>
 
 <div class="footer">
   <p>📬 Stay tuned — new posts every week!</p>
