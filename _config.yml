@@ -9,7 +9,7 @@ author:
 
 github_username: devgs8
 
-# Navigation menu (apenas Home e About)
+# Navigation menu
 header_pages:
   - index.md
   - about.md
