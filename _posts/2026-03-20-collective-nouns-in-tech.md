@@ -147,6 +147,112 @@ Complete the sentences with the correct collective noun:
 
 </details>
 
+## ✨ Practice Exercise: Choose the Correct Collective Noun 🎮
+
+Complete each sentence by selecting the correct collective noun from the options below.  
+Check the box next to your answer, then reveal the correct answers at the end!
+
+---
+
+### 📝 Word Bank
+
+| flock | bouquet | bunch | pride | team | deck | pack | school | crowd | herd |
+|-------|---------|-------|-------|------|------|------|--------|-------|------|
+
+---
+
+### 1️⃣ A ___________ of birds flew overhead.
+
+- [ ] A) pack  
+- [ ] B) flock  
+- [ ] C) herd  
+- [ ] D) school  
+
+---
+
+### 2️⃣ She received a beautiful ___________ of flowers.
+
+- [ ] A) bunch  
+- [ ] B) bouquet  
+- [ ] C) collection  
+- [ ] D) pile  
+
+---
+
+### 3️⃣ A ___________ of lions rested in the shade.
+
+- [ ] A) pack  
+- [ ] B) herd  
+- [ ] C) pride  
+- [ ] D) flock  
+
+---
+
+### 4️⃣ The ___________ of players celebrated their victory.
+
+- [ ] A) crowd  
+- [ ] B) team  
+- [ ] C) crew  
+- [ ] D) band  
+
+---
+
+### 5️⃣ A ___________ of cards was on the table.
+
+- [ ] A) set  
+- [ ] B) stack  
+- [ ] C) deck  
+- [ ] D) pile  
+
+---
+
+<details>
+<summary>🎯 Click here to see the correct answers!</summary>
+
+| Question | Correct Answer |
+|----------|----------------|
+| 1 | **B) flock** – A group of birds is called a flock. |
+| 2 | **B) bouquet** – A bouquet is an arranged bunch of flowers. (A bunch is also acceptable!) |
+| 3 | **C) pride** – A group of lions is called a pride. |
+| 4 | **B) team** – A group of players is called a team. |
+| 5 | **C) deck** – A group of playing cards is called a deck. |
+
+**Your Score:**  
+Count how many you got right!
+
+- 🟢 5/5 – Perfect! You're a collective noun champion! 🏆  
+- 🟡 3-4/5 – Great job! Just a little review and you'll master them all. 📚  
+- 🔴 0-2/5 – No worries! Review the list above and try again. You've got this! 💪
+
+</details>
+
+---
+
+## 🎮 Bonus Challenge!
+
+Can you match these unusual collective nouns?
+
+| Collective Noun | Animal |
+|----------------|--------|
+| A murder of ________ | |
+| A dazzle of ________ | |
+| A bloat of ________ | |
+| A parliament of ________ | |
+
+<details>
+<summary>🦉 Click for answers!</summary>
+
+- A **murder** of **crows**  
+- A **dazzle** of **zebras**  
+- A **bloat** of **hippos**  
+- A **parliament** of **owls**
+
+</details>
+
+---
+
+💡 **Remember:** Collective nouns add color and precision to your English. Keep practicing and they'll become second nature! 🌟
+
 ---
 
 > 💡 **Remember:** Collective nouns add color and precision to your English. Start using them in your daily conversations and writing!
