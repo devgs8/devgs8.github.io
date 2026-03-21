@@ -63,6 +63,14 @@ title: "TecDev — Technical Blog"
     background: #38ef7d;
     color: #1a2a3a;
   }
+  .category-algorithms {
+    background: #6c5ce7;
+    color: white;
+  }
+  .category-logic {
+    background: #00b894;
+    color: white;
+  }
   .read-more {
     display: inline-block;
     margin-top: 0.5rem;
@@ -81,6 +89,7 @@ title: "TecDev — Technical Blog"
 <div class="nav-buttons">
   <a href="/" class="btn">Home</a>
   <a href="/about" class="btn">About</a>
+  <a href="/schedule" class="btn">Schedule</a>
 </div>
 
 <div class="hero">
@@ -95,8 +104,15 @@ title: "TecDev — Technical Blog"
     <div class="post-item">
       {% if post.categories contains "java" %}
         <span class="post-category category-java">☕ Java</span>
-      {% elsif post.categories contains "english" %}
+      {% endif %}
+      {% if post.categories contains "english" %}
         <span class="post-category category-english">🇬🇧 English</span>
+      {% endif %}
+      {% if post.categories contains "algorithms" %}
+        <span class="post-category category-algorithms">🧠 Algorithms</span>
+      {% endif %}
+      {% if post.categories contains "logic" %}
+        <span class="post-category category-logic">🔢 Logic</span>
       {% endif %}
       <h2 class="post-title">
         <a href="{{ post.url }}">{{ post.title }}</a>
