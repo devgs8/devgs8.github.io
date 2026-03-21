@@ -126,133 +126,175 @@ Some collective nouns are creative and fun!
 
 ---
 
-## ✨ Practice Exercise
-
-Complete the sentences with the correct collective noun:
-
-1. A ___________ of birds flew overhead.  
-2. She received a beautiful ___________ of flowers.  
-3. A ___________ of lions rested in the shade.  
-4. The ___________ of players celebrated their victory.  
-5. A ___________ of cards was on the table.
-
-<details>
-<summary>📌 Click for answers</summary>
-
-1. **flock**  
-2. **bouquet** / **bunch**  
-3. **pride**  
-4. **team**  
-5. **deck**
-
-</details>
-
 ## ✨ Practice Exercise: Choose the Correct Collective Noun 🎮
 
-Complete each sentence by selecting the correct collective noun from the options below.  
-Check the box next to your answer, then reveal the correct answers at the end!
-
----
-
-### 📝 Word Bank
-
-| flock | bouquet | bunch | pride | team | deck | pack | school | crowd | herd |
-|-------|---------|-------|-------|------|------|------|--------|-------|------|
+Try to guess the correct answer for each question.  
+Click on the dropdown below each question to check your answer and see if you got it right!
 
 ---
 
 ### 1️⃣ A ___________ of birds flew overhead.
 
-- [ ] A) pack  
-- [ ] B) flock  
-- [ ] C) herd  
-- [ ] D) school  
+| Option | Answer |
+|--------|--------|
+| A) pack | ❌ Incorrect |
+| B) flock | ✅ Correct! A group of birds is called a **flock**. |
+| C) herd | ❌ Incorrect |
+| D) school | ❌ Incorrect |
+
+<details>
+<summary>🔍 Click to check your answer</summary>
+
+**✅ Correct answer: B) flock**
+
+A group of birds is called a **flock**.
+
+🟢 If you chose B, you got it right!
+🔴 If you chose another option, try to remember: *flock* is for birds.
+
+</details>
 
 ---
 
 ### 2️⃣ She received a beautiful ___________ of flowers.
 
-- [ ] A) bunch  
-- [ ] B) bouquet  
-- [ ] C) collection  
-- [ ] D) pile  
+| Option | Answer |
+|--------|--------|
+| A) bunch | ✅ Correct! A **bunch** of flowers is commonly used. |
+| B) bouquet | ✅ Correct! A **bouquet** is an arranged bunch of flowers. |
+| C) collection | ❌ Incorrect (too general) |
+| D) pile | ❌ Incorrect (messy, not beautiful) |
+
+<details>
+<summary>🔍 Click to check your answer</summary>
+
+**✅ Correct answers: A) bunch or B) bouquet**
+
+Both are acceptable:
+- **Bunch** = a casual group of flowers
+- **Bouquet** = an arranged, beautiful group of flowers
+
+🟢 If you chose A or B, you got it right!
+🔴 If you chose C or D, try again: flowers come in a *bunch* or *bouquet*.
+
+</details>
 
 ---
 
 ### 3️⃣ A ___________ of lions rested in the shade.
 
-- [ ] A) pack  
-- [ ] B) herd  
-- [ ] C) pride  
-- [ ] D) flock  
+| Option | Answer |
+|--------|--------|
+| A) pack | ❌ Incorrect (pack is for wolves) |
+| B) herd | ❌ Incorrect (herd is for cows, elephants) |
+| C) pride | ✅ Correct! A group of lions is called a **pride**. |
+| D) flock | ❌ Incorrect (flock is for birds) |
+
+<details>
+<summary>🔍 Click to check your answer</summary>
+
+**✅ Correct answer: C) pride**
+
+A group of lions is called a **pride**.
+
+🟢 If you chose C, you got it right!
+🔴 If you chose another option, remember: lions live in a *pride*.
+
+</details>
 
 ---
 
 ### 4️⃣ The ___________ of players celebrated their victory.
 
-- [ ] A) crowd  
-- [ ] B) team  
-- [ ] C) crew  
-- [ ] D) band  
+| Option | Answer |
+|--------|--------|
+| A) crowd | ❌ Incorrect (crowd is for spectators) |
+| B) team | ✅ Correct! A group of players is a **team**. |
+| C) crew | ❌ Incorrect (crew is for workers or sailors) |
+| D) band | ❌ Incorrect (band is for musicians) |
+
+<details>
+<summary>🔍 Click to check your answer</summary>
+
+**✅ Correct answer: B) team**
+
+A group of players who play together is called a **team**.
+
+🟢 If you chose B, you got it right!
+🔴 If you chose another option, think: players on the same side form a *team*.
+
+</details>
 
 ---
 
 ### 5️⃣ A ___________ of cards was on the table.
 
-- [ ] A) set  
-- [ ] B) stack  
-- [ ] C) deck  
-- [ ] D) pile  
+| Option | Answer |
+|--------|--------|
+| A) set | ❌ Incorrect (set is for tools or matching items) |
+| B) stack | ❌ Incorrect (stack is for papers or pancakes) |
+| C) deck | ✅ Correct! A group of playing cards is a **deck**. |
+| D) pile | ❌ Incorrect (pile is messy, cards are neat) |
+
+<details>
+<summary>🔍 Click to check your answer</summary>
+
+**✅ Correct answer: C) deck**
+
+A group of playing cards is called a **deck**.
+
+🟢 If you chose C, you got it right!
+🔴 If you chose another option, remember: cards come in a *deck*.
+
+</details>
 
 ---
 
+## 📊 Your Score Card
+
 <details>
-<summary>🎯 Click here to see the correct answers!</summary>
+<summary>🎯 Click here to calculate your score!</summary>
 
-| Question | Correct Answer |
-|----------|----------------|
-| 1 | **B) flock** – A group of birds is called a flock. |
-| 2 | **B) bouquet** – A bouquet is an arranged bunch of flowers. (A bunch is also acceptable!) |
-| 3 | **C) pride** – A group of lions is called a pride. |
-| 4 | **B) team** – A group of players is called a team. |
-| 5 | **C) deck** – A group of playing cards is called a deck. |
+| Question | Correct Answer | Your Choice | Result |
+|----------|----------------|-------------|--------|
+| 1 | B) flock | _______ | 🟢 / 🔴 |
+| 2 | A) bunch or B) bouquet | _______ | 🟢 / 🔴 |
+| 3 | C) pride | _______ | 🟢 / 🔴 |
+| 4 | B) team | _______ | 🟢 / 🔴 |
+| 5 | C) deck | _______ | 🟢 / 🔴 |
 
-**Your Score:**  
-Count how many you got right!
-
-- 🟢 5/5 – Perfect! You're a collective noun champion! 🏆  
-- 🟡 3-4/5 – Great job! Just a little review and you'll master them all. 📚  
+**How to score:**
+- 🟢 5/5 – Perfect! You're a collective noun champion! 🏆
+- 🟡 3-4/5 – Great job! Just a little review and you'll master them all. 📚
 - 🔴 0-2/5 – No worries! Review the list above and try again. You've got this! 💪
 
 </details>
 
 ---
 
-## 🎮 Bonus Challenge!
+## 🎮 Bonus Challenge: Match the Pairs!
 
-Can you match these unusual collective nouns?
+Draw a line or match the collective noun to the correct animal:
 
 | Collective Noun | Animal |
-|----------------|--------|
-| A murder of ________ | |
-| A dazzle of ________ | |
-| A bloat of ________ | |
-| A parliament of ________ | |
+|-----------------|--------|
+| A murder of ______ | |
+| A dazzle of ______ | |
+| A bloat of ______ | |
+| A parliament of ______ | |
 
 <details>
 <summary>🦉 Click for answers!</summary>
 
-- A **murder** of **crows**  
-- A **dazzle** of **zebras**  
-- A **bloat** of **hippos**  
-- A **parliament** of **owls**
+| Collective Noun | Animal |
+|-----------------|--------|
+| A **murder** of **crows** | 🐦‍⬛ |
+| A **dazzle** of **zebras** | 🦓 |
+| A **bloat** of **hippos** | 🦛 |
+| A **parliament** of **owls** | 🦉 |
 
 </details>
 
 ---
 
 💡 **Remember:** Collective nouns add color and precision to your English. Keep practicing and they'll become second nature! 🌟
-
----
-
-> 💡 **Remember:** Collective nouns add color and precision to your English. Start using them in your daily conversations and writing!
