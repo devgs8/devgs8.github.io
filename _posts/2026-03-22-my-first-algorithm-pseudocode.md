@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "📝 My First Algorithm: Writing in Pseudocode"
-date: 2026-03-21
+date: 2026-03-22
 categories: [algorithms, logic]
 excerpt: "Writing my first algorithm using pseudocode — understanding variables, assignment, and basic structure."
 ---
