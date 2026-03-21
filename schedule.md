@@ -4,6 +4,142 @@ title: "📅 Study Schedule"
 permalink: /schedule/
 ---
 
+<div id="progress-tracker"></div>
+
+<script src="/assets/js/progress.js"></script>
+
+<style>
+/* Progress Tracker Styles */
+.progress-container {
+    background: #f6f8fa;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 32px;
+    border: 1px solid #e1e4e8;
+}
+
+.progress-container h3 {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    color: #24292e;
+}
+
+.progress-bar-wrapper {
+    margin: 12px 0;
+}
+
+.progress-bar-wrapper.small {
+    margin: 8px 0;
+}
+
+.progress-bar-bg {
+    background-color: #e1e4e8;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 32px;
+}
+
+.progress-bar-wrapper.small .progress-bar-bg {
+    height: 24px;
+}
+
+.progress-bar-fill {
+    background: linear-gradient(90deg, #2cbe4e, #28a745);
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: width 0.5s ease;
+}
+
+.progress-percent {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.modules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.module-card {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid #e1e4e8;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.module-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.module-name {
+    font-weight: 600;
+    color: #24292e;
+    font-size: 16px;
+}
+
+.module-status {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.status-completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-progress {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-pending {
+    background: #e9ecef;
+    color: #495057;
+}
+
+.module-stats {
+    font-size: 12px;
+    color: #586069;
+    margin-top: 8px;
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    .progress-container {
+        padding: 16px;
+    }
+    
+    .modules-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .module-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+</style>
+
 # 📅 My Study Schedule
 
 Welcome to my study roadmap! As a **System Administrator transitioning to Java Development**, I'm following a structured plan to master Algorithms and Java. This schedule keeps me accountable and helps you follow along with my learning journey.
@@ -141,16 +277,6 @@ I'm following **Gustavo Guanabara's courses** (Curso em Vídeo), which are highl
 | Week 15 | Exception Handling | [⚠️ Exception Handling in Java](/2026/06/05/exceptions-java.html) |
 | Week 16 | File I/O | [📁 File Input/Output in Java](/2026/06/12/file-io-java.html) |
 | Week 17 | Introduction to Spring Boot | [🚀 My First Spring Boot API](/2026/06/19/spring-boot-intro.html) |
-
----
-
-## 📊 Progress Tracker
-
-| Module | Status | Progress |
-|--------|--------|----------|
-| Algorithms & Logic | 🟢 In Progress | ▰▰▰▰▰▰▰▰▰▰ 0% |
-| Java Basics | ⚪ Not Started | ▰▰▰▰▰▰▰▰▰▰ 0% |
-| OOP & Advanced | ⚪ Not Started | ▰▰▰▰▰▰▰▰▰▰ 0% |
 
 ---
 
