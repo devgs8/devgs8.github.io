@@ -39,10 +39,15 @@ title: "TecDev — Technical Blog"
   }
   .post-title {
     margin: 0 0 0.5rem;
+    font-size: 1.35rem;
   }
   .post-title a {
     text-decoration: none;
     color: #0078D4;
+    font-weight: 600;
+  }
+  .post-title a:hover {
+    text-decoration: underline;
   }
   .post-meta {
     color: #777;
