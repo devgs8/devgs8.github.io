@@ -47,6 +47,14 @@ layout: default
     background: #38ef7d;
     color: #1a2a3a;
   }
+  .category-algorithms {
+    background: #6c5ce7;
+    color: white;
+  }
+  .category-logic {
+    background: #00b894;
+    color: white;
+  }
   .post-content {
     line-height: 1.8;
     font-size: 1.05rem;
@@ -54,6 +62,18 @@ layout: default
   .post-content h2 {
     margin-top: 2rem;
     color: #0078D4;
+  }
+  .post-content pre {
+    background: #f6f8fa;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+  .post-content code {
+    background: #f6f8fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
   }
   .post-footer {
     margin-top: 3rem;
@@ -70,13 +90,21 @@ layout: default
 <div class="nav-buttons">
   <a href="/" class="btn">← Home</a>
   <a href="/about" class="btn">About</a>
+  <a href="/schedule" class="btn">📅 Schedule</a>
 </div>
 
 <div class="post-header">
   {% if page.categories contains "java" %}
     <span class="post-category category-java">☕ Java</span>
-  {% elsif page.categories contains "english" %}
+  {% endif %}
+  {% if page.categories contains "english" %}
     <span class="post-category category-english">🇬🇧 English</span>
+  {% endif %}
+  {% if page.categories contains "algorithms" %}
+    <span class="post-category category-algorithms">🧠 Algorithms</span>
+  {% endif %}
+  {% if page.categories contains "logic" %}
+    <span class="post-category category-logic">🔢 Logic</span>
   {% endif %}
   <h1 class="post-title">{{ page.title }}</h1>
   <p class="post-meta">📅 {{ page.date | date: "%B %d, %Y" }}</p>
@@ -88,4 +116,5 @@ layout: default
 
 <div class="post-footer">
   <a href="/" class="btn">← Back to Home</a>
+  <a href="/schedule" class="btn">📅 View Schedule →</a>
 </div>
