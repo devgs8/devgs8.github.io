@@ -295,6 +295,16 @@ Draw a line or match the collective noun to the correct animal:
 
 </details>
 
+# Vocabulary Exercises
+
+22. They've bought a leather three-piece **suite** ; a sofa and two armchairs.
+
+23. Let's play a game. Who's got a **pack** of cards?
+
+24. The cruise ship carries 150 passengers and a **crew** of 85.
+
+25. The **flock** of sheep was controlled by a shepherd and two dogs.
+
 ---
 
 💡 **Remember:** Collective nouns add color and precision to your English. Keep practicing and they'll become second nature! 🌟
