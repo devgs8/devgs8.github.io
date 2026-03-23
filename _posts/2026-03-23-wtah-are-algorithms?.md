@@ -40,6 +40,8 @@ Even simple everyday tasks are algorithms:
 - Baking a cake
 - Following a recipe
 
+  ![Algorithms in everyday life](/assets/images/algorithms-header.jpg)
+
 ### Building Our Own Algorithms
 
 We can create algorithms to solve problems. Throughout this journey, we'll use **VisualG** as our tool to write and test our algorithms.
