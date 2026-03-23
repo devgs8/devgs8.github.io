@@ -40,11 +40,36 @@ Even simple everyday tasks are algorithms:
 - Baking a cake
 - Following a recipe
 
-![Algorithms in everyday life](/assets/images/algorithms-header.png)
-*Crossing the street — a simple algorithm we use every day*
+
 
 ### Building Our Own Algorithms
 
 We can create algorithms to solve problems. Throughout this journey, we'll use **VisualG** as our tool to write and test our algorithms.
+
+### A Simple Example: Crossing the Street
+
+Let's look at how we can represent crossing the street as an algorithm
+
+Algoritmo AtravessarRua
+Olhar para a direita
+Olhar para a esquerda
+Se estiver vindo carro
+Não Atravesse
+senão
+Atravesse
+Fim-Se
+Fim-Algoritmo
+
+other
+
+Algoritmo AtravessarRua
+Olhar para a esquerda
+Olhar para a direita
+Se não estiver vindo carro
+Atravesse
+senão
+Não Atravesse
+Fim-Se
+Fim-Algoritmo
 
 ---
