@@ -50,26 +50,26 @@ We can create algorithms to solve problems. Throughout this journey, we'll use *
 
 Let's look at how we can represent crossing the street as an algorithm
 
-Algoritmo AtravessarRua
-Olhar para a direita
-Olhar para a esquerda
-Se estiver vindo carro
-Não Atravesse
-senão
-Atravesse
-Fim-Se
-Fim-Algoritmo
+Algorithm CrossTheStreet
+    Look to the right
+    Look to the left
+    If a car is coming
+        Do not cross
+    Else
+        Cross
+    End-If
+End-Algorithm
 
 other
 
-Algoritmo AtravessarRua
-Olhar para a esquerda
-Olhar para a direita
-Se não estiver vindo carro
-Atravesse
-senão
-Não Atravesse
-Fim-Se
-Fim-Algoritmo
+Algorithm CrossTheStreet
+    Look to the left
+    Look to the right
+    If no car is coming
+        Cross
+    Else
+        Do not cross
+    End-If
+End-Algorithm
 
 ---
