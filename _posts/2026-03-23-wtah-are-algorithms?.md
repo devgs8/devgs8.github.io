@@ -40,7 +40,7 @@ Even simple everyday tasks are algorithms:
 - Baking a cake
 - Following a recipe
 
-  ![Algorithms in everyday life](/assets/images/algorithms-header.jpg)
+  ![Exemple](/sset/images/algorithms-header.png)
 
 ### Building Our Own Algorithms
 
