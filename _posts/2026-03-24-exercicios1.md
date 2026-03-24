@@ -1,23 +1,23 @@
 ---
 layout: post
-title: "📝 Exercícios de Algoritmos - Parte 1"
+title: "📝 Algorithms Exercises - Part 1"
 date: 2026-03-24
 categories: [algorithms, exercises, logic]
-excerpt: "Primeira lista de exercícios práticos para fixar os conceitos básicos de algoritmos e lógica de programação."
+excerpt: "First list of practical exercises to reinforce basic concepts of algorithms and programming logic."
 ---
 
-## Sobre esta lista
+## About this list
 
-Esta é a primeira parte dos exercícios práticos para reforçar os conceitos de algoritmos. Todos os exercícios devem ser resolvidos utilizando **Portugol** (similar ao VisuAlg).
+This is the first part of practical exercises to reinforce algorithm concepts. All exercises should be solved using **Portugol** (similar to VisuAlg).
 
 ---
 
-## Exercício 1: Calculadora de Soma
+## Exercise 1: Sum Calculator
 
-**Descrição:**  
-Faça um algoritmo que leia dois números e mostre a soma deles.
+**Description:**  
+Create an algorithm that reads two numbers and displays their sum.
 
-**Resolução:**
+**Solution:**
 
 ```portugol
 algoritmo "CalculadoraSoma"
@@ -30,28 +30,20 @@ inicio
    Leia(num2)
    resultado <- num1 + num2
    Escreva("A soma é: ", resultado)
-finalgoritmo
-```
+finalgoritmo```
 
-**Exemplo de execução:**
-
-```
-Digite o primeiro numero: 5
+```Digite o primeiro numero: 5
 Digite o segundo numero: 5
-A soma é: 10
-```
+A soma é: 10```
 
-![Calculadora Soma]({{ site.baseurl }}/ssets/images/calculadora-soma.png)
+![Sum Calculator]({{ site.baseurl }}/ssets/images/calculadora-soma.png)
 
+---
 
------
+Description:
+Calculate the area of a triangle using the formula: base × height / 2.
 
-## Exercício 2: Área do Triângulo
-
-**Descrição:**  
-Calcule a área de um triângulo usando a fórmula: **base × altura / 2**.
-
-**Resolução:**
+Solution:
 
 ```portugol
 algoritmo "AreaTriangulo"
@@ -64,16 +56,15 @@ inicio
    Leia(altura)
    area <- (base * altura) / 2
    Escreva("A área do triângulo é: ", area)
-finalgoritmo
-```
+finalgoritmo```
 
-**Exemplo de execução:**
+Execution example:
 
-```
-Digite a base do triângulo: 20
+```Digite a base do triângulo: 20
 Digite a altura do triângulo: 30
-A área do triângulo é: 300
-```
+A área do triângulo é: 300```
 
-![Área do Triângulo]({{ site.baseurl }}/ssets/images/calculararea.png)
+![Triangle Area]({{ site.baseurl }}/ssets/images/calculararea.png)
+
+
 
