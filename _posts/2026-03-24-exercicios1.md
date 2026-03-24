@@ -46,7 +46,7 @@ A soma é: 10
 
 -----
 
-## Exercício 5: Área do Triângulo
+## Exercício 2: Área do Triângulo
 
 **Descrição:**  
 Calcule a área de um triângulo usando a fórmula: **base × altura / 2**.
