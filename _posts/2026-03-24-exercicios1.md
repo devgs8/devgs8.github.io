@@ -18,6 +18,7 @@ Esta é a primeira parte dos exercícios práticos para reforçar os conceitos d
 Faça um algoritmo que leia dois números e mostre a soma deles.
 
 **Resolução:**
+
 ```portugol
 algoritmo "CalculadoraSoma"
 var
@@ -30,12 +31,15 @@ inicio
    resultado <- num1 + num2
    Escreva("A soma é: ", resultado)
 finalgoritmo
+```
 
-Exemplo de execução:
+**Exemplo de execução:**
 
+```
 Digite o primeiro numero: 5
 Digite o segundo numero: 5
 A soma é: 10
+```
 
 ![Calculadora Soma]({{ site.baseurl }}/ssets/images/calculadora-soma.png)
 
