@@ -30,20 +30,25 @@ inicio
    Leia(num2)
    resultado <- num1 + num2
    Escreva("A soma é: ", resultado)
-finalgoritmo```
+finalgoritmo
+```
 
-```Digite o primeiro numero: 5
+```
+Digite o primeiro numero: 5
 Digite o segundo numero: 5
-A soma é: 10```
+A soma é: 10
+```
 
 ![Sum Calculator]({{ site.baseurl }}/ssets/images/calculadora-soma.png)
 
 ---
 
-Description:
-Calculate the area of a triangle using the formula: base × height / 2.
+## Exercise 2: Triangle Area
 
-Solution:
+**Description:**  
+Calculate the area of a triangle using the formula: **base × height / 2**.
+
+**Solution:**
 
 ```portugol
 algoritmo "AreaTriangulo"
@@ -56,13 +61,16 @@ inicio
    Leia(altura)
    area <- (base * altura) / 2
    Escreva("A área do triângulo é: ", area)
-finalgoritmo```
+finalgoritmo
+```
 
 Execution example:
 
-```Digite a base do triângulo: 20
+```
+Digite a base do triângulo: 20
 Digite a altura do triângulo: 30
-A área do triângulo é: 300```
+A área do triângulo é: 300
+```
 
 ![Triangle Area]({{ site.baseurl }}/ssets/images/calculararea.png)
 
