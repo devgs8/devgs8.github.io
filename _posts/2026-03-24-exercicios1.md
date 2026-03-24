@@ -43,3 +43,37 @@ A soma é: 10
 
 ![Calculadora Soma]({{ site.baseurl }}/ssets/images/calculadora-soma.png)
 
+
+-----
+
+## Exercício 5: Área do Triângulo
+
+**Descrição:**  
+Calcule a área de um triângulo usando a fórmula: **base × altura / 2**.
+
+**Resolução:**
+
+```portugol
+algoritmo "AreaTriangulo"
+var
+   base, altura, area: Real
+inicio
+   Escreva("Digite a base do triângulo: ")
+   Leia(base)
+   Escreva("Digite a altura do triângulo: ")
+   Leia(altura)
+   area <- (base * altura) / 2
+   Escreva("A área do triângulo é: ", area)
+finalgoritmo
+```
+
+**Exemplo de execução:**
+
+```
+Digite a base do triângulo: 20
+Digite a altura do triângulo: 30
+A área do triângulo é: 300
+```
+
+![Área do Triângulo]({{ site.baseurl }}/ssets/images/calculararea.png)
+
