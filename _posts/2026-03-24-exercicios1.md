@@ -37,5 +37,5 @@ Digite o primeiro numero: 5
 Digite o segundo numero: 5
 A soma é: 10
 
-
+![Calculadora Soma]({{ site.baseurl }}/ssets/images/calculadora-soma.png)
 
