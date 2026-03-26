@@ -36,3 +36,4 @@ inicio
    Escreva("Sem parênteses: ", resultado1)
    Escreva("Com parênteses: ", resultado2)
 finalgoritmo
+```
