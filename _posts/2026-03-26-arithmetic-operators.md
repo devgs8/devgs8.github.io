@@ -35,4 +35,4 @@ inicio
    resultado2 <- (3 + 2) / 2 // 5 / 2 = 2.5
    Escreva("Sem parênteses: ", resultado1)
    Escreva("Com parênteses: ", resultado2)
-finalgoritmo
+finalgoritmo```
