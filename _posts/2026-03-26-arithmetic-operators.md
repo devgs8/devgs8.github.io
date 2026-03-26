@@ -24,7 +24,7 @@ The order in which operations are evaluated affects the result. Parentheses shou
 | 3rd        | `*` `/` Multiplication / Division |
 | 4th        | `+` `-` Addition / Subtraction |
 
-**Example:**
+**Solution:**
 
 ```portugol
 algoritmo "Precedencia"
@@ -35,4 +35,4 @@ inicio
    resultado2 <- (3 + 2) / 2 // 5 / 2 = 2.5
    Escreva("Sem parênteses: ", resultado1)
    Escreva("Com parênteses: ", resultado2)
-finalgoritmo```
+finalgoritmo
