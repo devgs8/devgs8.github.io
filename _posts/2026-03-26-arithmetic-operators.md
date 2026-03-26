@@ -1,15 +1,25 @@
 markdown
 ---
 layout: post
-title: "📝 Arithmetic Operators & Interactive Algorithms"
-date: 2026-03-26
-categories: [algorithms, operators, portugol, logic]
-excerpt: "Understanding arithmetic operators, operator precedence, mathematical functions, and interactive user input in algorithms using Portugol."
+title: "Algorithms Exercises - Part 1"
+date: 2026-03-24
+categories: [algorithms, exercises, logic]
+excerpt: "First list of practical exercises to reinforce basic concepts of algorithms and programming logic."
 ---
 
-## About this content
+![Algorithms Logic]({{ site.baseurl }}/assets/images/algorithms-logic.png)
 
-This material covers the fundamentals of arithmetic operators, operator precedence, mathematical functions, and interactive algorithms using **Portugol** (VisuAlg syntax). Each concept includes practical examples and visual references.
+# Algorithms Exercises - Part 1
+
+**March 24, 2026**
+
+First list of practical exercises to reinforce basic concepts of algorithms and programming logic.
+
+---
+
+## About this list
+
+This is the first part of practical exercises to reinforce algorithm concepts. All exercises should be solved using **Portugol** (similar to VisuAlg).
 
 ---
 
