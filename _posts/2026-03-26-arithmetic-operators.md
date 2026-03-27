@@ -187,7 +187,7 @@ Operator Precedence Issue
 Here we removed the parentheses from the sum and the result is different because of precedence. First, it will divide N2 / 2, then add the result to N1.
 
 Average Calculation (Incorrect)
-portugol
+
 ```algoritmo "MeuNome"
 var
    N1, N2: Inteiro
@@ -201,6 +201,7 @@ inicio
    Escreva("A média entre ", N1, " e ", N2, " é igual a ", M)
 fimalgoritmo
 ```
+
 Key Takeaways
 Concept	Explanation
 Input Commands	Leia() requests data from the user
