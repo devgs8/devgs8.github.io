@@ -187,6 +187,7 @@ Operator Precedence Issue
 Here we removed the parentheses from the sum and the result is different because of precedence. First, it will divide N2 / 2, then add the result to N1.
 
 Average Calculation (Incorrect)
+M <- N1 + N2 / 2   // Division happens before addition!
 
 ```algoritmo "MeuNome"
 var
@@ -197,7 +198,7 @@ inicio
    Leia(N1)
    Escreva("Digite o segundo número: ")
    Leia(N2)
-   M <- N1 + N2 / 2   // Division happens before addition!
+   M <- N1 + N2 / 2  
    Escreva("A média entre ", N1, " e ", N2, " é igual a ", M)
 fimalgoritmo
 ```
