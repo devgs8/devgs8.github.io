@@ -201,7 +201,7 @@ inicio
    Escreva("A média entre ", N1, " e ", N2, " é igual a ", M)
 fimalgoritmo
 ```
-```Key Takeaways
+Key Takeaways
 Concept	Explanation
 Input Commands	Leia() requests data from the user
 Output Commands	Escreva() displays information to the user
@@ -218,6 +218,6 @@ Operator	Operation	Example	Result
 \	Integer Division	5 \ 2	2
 ^	Exponentiation	5 ^ 2	25
 %	Modulus (Remainder)	5 % 2	1
-```
+
 Happy coding! 🚀
 ---
