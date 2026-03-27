@@ -214,7 +214,8 @@ Concept	Explanation
 Input Commands	Leia() requests data from the user
 Output Commands	Escreva() displays information to the user
 
-```Arithmetic Operators	+ - * / \ ^ %
+```
+Arithmetic Operators	+ - * / \ ^ %
 Integer Division	Use \ for integer division
 Real Numbers	Use . as decimal separator, declare as Real
 Operator Precedence	Always use parentheses to ensure correct calculation order
