@@ -56,7 +56,8 @@ Operator	Operation	Expression	Result
 %	Modulus (remainder)	A % B	1
 ```
 
-```algoritmo "OperadoresAritmeticos"
+```portugol
+//algoritmo "OperadoresAritmeticos"
 var
    A, B: Inteiro
    divisaoReal: Real
@@ -101,7 +102,8 @@ GraupRad	Degrees to radians	GraupRad(30)	0.52
 Interactive Form with User
 Interactive User Input
 
-```algoritmo "MeuNome"
+```portugol
+//algoritmo "MeuNome"
 var
    nome: Caractere
 inicio
@@ -115,7 +117,8 @@ Sum of Two Numbers
 Here we only ask to enter the two numbers, without adding them.
 
 
-```algoritmo "MeuNome"
+```portugol
+algoritmo "MeuNome"
 var
    N1, N2: Inteiro
 inicio
@@ -129,7 +132,8 @@ fimalgoritmo
 Sum with Result
 Here we added another variable S and added the output command with the sum assigned to variable S.
 
-```algoritmo "MeuNome"
+```portugol
+//algoritmo "MeuNome"
 var
    N1, N2, S: Inteiro
 inicio
@@ -146,7 +150,8 @@ Formatted Sum Output
 Here we added more interaction in the Escreva command with "and" and "is equal to". The programmer is responsible for the interaction, not the user. The user should have the work.
 
 
-```algoritmo "MeuNome"
+```portugol
+//algoritmo "MeuNome"
 var
    N1, N2, S: Inteiro
 inicio
@@ -168,8 +173,8 @@ Important Observation
 Note: Two and a half is not written as 2,5 but as 2.5 (the decimal separator in the US). We had to declare M as Real because real numbers have a decimal part (floating point).
 
 Average Calculation (Correct)
-portugol
-```algoritmo "MeuNome"
+```portugol
+algoritmo "MeuNome"
 var
    N1, N2: Inteiro
    M: Real
@@ -189,7 +194,8 @@ Here we removed the parentheses from the sum and the result is different because
 Average Calculation (Incorrect)
 M <- N1 + N2 / 2   // Division happens before addition!
 
-```algoritmo "MeuNome"
+```portugol
+//algoritmo "MeuNome"
 var
    N1, N2: Inteiro
    M: Real
