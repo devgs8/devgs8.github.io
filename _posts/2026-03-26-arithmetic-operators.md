@@ -205,7 +205,8 @@ Key Takeaways
 Concept	Explanation
 Input Commands	Leia() requests data from the user
 Output Commands	Escreva() displays information to the user
-Arithmetic Operators	+ - * / \ ^ %
+
+```Arithmetic Operators	+ - * / \ ^ %
 Integer Division	Use \ for integer division
 Real Numbers	Use . as decimal separator, declare as Real
 Operator Precedence	Always use parentheses to ensure correct calculation order
@@ -218,6 +219,6 @@ Operator	Operation	Example	Result
 \	Integer Division	5 \ 2	2
 ^	Exponentiation	5 ^ 2	25
 %	Modulus (Remainder)	5 % 2	1
-
+```
 Happy coding! 🚀
 ---
