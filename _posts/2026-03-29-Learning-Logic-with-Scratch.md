@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🐱 Learning Logic with Scratch"
+title: "📝 Learning Logic with Scratch"
 date: 2026-03-31
 categories: [algorithms, scratch, logic, programming]
 excerpt: "Learning programming logic visually with Scratch — variables, operators, conditionals, loops, events and sprites explained through practical examples."
