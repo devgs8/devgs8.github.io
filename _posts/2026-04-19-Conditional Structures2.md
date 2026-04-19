@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🔀 Estruturas Condicionais 2 — Condições Aninhadas e Escolha Caso"
-date: 2026-04-14
+date: 2026-04-19
 categories: [algorithms, logic, conditional, visualg, exercises]
 excerpt: "Domine estruturas condicionais aninhadas e a estrutura Escolha-Caso em algoritmos — com exemplos práticos de IMC, doações, salário de funcionários e aproveitamento escolar."
 ---
